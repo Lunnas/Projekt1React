@@ -101,6 +101,7 @@ header {
 .N1 {
   max-width: 70%;
   padding-bottom: 60px;
+  padding-left: 95px;
   font-size: 36px;
   line-height: 42px;
   z-index: 11;
@@ -108,12 +109,14 @@ header {
 .N2 {
   max-width: 70%;
   padding-bottom: 40px;
+  padding-left: 95px;
   z-index: 11;
 }
 .buttonHeader {
   max-width: 164px;
   height: 42px;
   padding: 7px 55px;
+  margin-left: 95px;
   background-color: transparent;
   color: white;
   border: 3px solid #fff;
@@ -272,8 +275,8 @@ header {
   width: 100%;
   background: #405d78;
   font-family: roboto;
-  font-weight: bold;
-  font-size: 3.6rem;
+  font-weight: regular;
+  font-size: 24px;
   line-height: 42px;
   color: #fff;
   padding-top: 50px;
@@ -361,7 +364,6 @@ header {
 }
 .contact {
   margin: auto;
-  margin-right: 10px;
 }
 @media screen and (min-width: 768px) {
   .prawa {
@@ -370,4 +372,7 @@ header {
   .contact {
     margin-right: 80px;
   }
+}
+.fa-2x {
+  margin-left: 20px;
 }
