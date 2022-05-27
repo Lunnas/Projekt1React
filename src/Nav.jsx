@@ -6,14 +6,17 @@ function Nav() {
       <div class="wrapper">
         <div class="wrapperNav">
           <ul class="logo">
-            <p>Logo</p>
+            <p>DreemDolls</p>
           </ul>
           <ul class="links">
             <a href="#name" class="link">
-              o nas
+              o mnie
             </a>
             <a href="#offer" class="link">
-              oferta
+              Maskotki
+            </a>
+            <a href="#graf" class="link">
+              Grafika 3D
             </a>
             <p class="link-contact">kontkat</p>
           </ul>

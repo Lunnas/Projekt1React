@@ -113,10 +113,14 @@ header {
   z-index: 11;
 }
 .buttonHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 164px;
-  height: 42px;
-  padding: 7px 55px;
+  height: 57px;
+  /*padding: 15px 43px;*/
   margin-left: 95px;
+  margin-bottom: 10px;
   background-color: transparent;
   color: white;
   border: 3px solid #fff;
@@ -181,7 +185,7 @@ header {
   width: 20%;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  background-image: url(person1.jpg);
+  background-image: url(profilowe.jpg);
   background-size: cover;
   background-position: center center;
   margin: 0 auto;
@@ -244,7 +248,7 @@ header {
     width: 15%;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: url(person1.jpg);
+    background-image: url(profilowe.jpg);
     background-size: cover;
     background-position: center center;
     margin: 10px 20px;
@@ -253,7 +257,7 @@ header {
     width: 15%;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: url(person2.jpg);
+    background-image: url(family.jpg);
     background-size: cover;
     background-position: center center;
     margin: 10px 20px;
@@ -295,16 +299,50 @@ header {
   height: 80%;
   padding-bottom: 3%;
 }
-.box {
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   width: 300px;
   aspect-ratio: 1/1;
-  background-color: white;
   border: 1px solid black;
-  color: black;
+  color: rgb(235, 37, 15);
+}
+.box1 {
+  background-image: url(person2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box2 {
+  background-image: url(wilk.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box3 {
+  background-image: url(pies.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box4 {
+  background-image: url(kruliczki.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box5 {
+  background-image: url(tilda.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box6 {
+  background-image: url(tildaLo.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .circle {
@@ -316,12 +354,71 @@ header {
   background-color: red;
   position: absolute;
 }
+.graf1,
+.graf2,
+.graf3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 300px;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  color: rgb(234, 220, 218);
+}
+.graf1 {
+  background-image: url(tło.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.graf2 {
+  background-image: url(cave2.png);
+  background-size: cover;
+  background-position: center;
+}
+.graf3 {
+  background-image: url(Donatandcaffee.png);
+  background-size: cover;
+  background-position: center;
+}
 
 @media screen and (min-width: 768px) {
   .services {
     padding-left: 100px;
   }
-  .box:hover {
+  .box1:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+  }
+  .box2:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+  }
+  .box3:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+  }
+  .box4:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+  }
+  .box5:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+  }
+  .box6:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+  }
+  .graf1:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+  }
+  .graf2:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+  }
+  .graf3:hover {
     transform: scale(1.05);
     transition-duration: 0.5s;
   }

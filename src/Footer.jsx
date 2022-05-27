@@ -5,7 +5,7 @@ function Footer() {
     <footer class="footer">
       <div class="wrapperFoot">
         <div class="prawa">
-          <p>Nazwa firmy - wszystkie prawa zastrzerzone, 2019</p>
+          <p>DreemDolls - wszystkie prawa zastrzerzone, 2019</p>
         </div>
         <div class="contact">
           <i class="fab fa-instagram fa-2x"></i>

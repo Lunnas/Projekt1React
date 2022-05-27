@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Header from "./Header";
 import Person from "./Person";
 import Services from "./Services";
+import Graphics from "./Graphics";
 import Footer from "./Footer";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header></Header>
       <Person></Person>
       <Services></Services>
+      <Graphics></Graphics>
       <Footer></Footer>
     </div>
   );

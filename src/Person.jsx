@@ -3,29 +3,29 @@ import React from "react";
 function Person() {
   return (
     <section id="name" class="person">
-      <h1 class="title">Nasi specjaliści</h1>
+      <h1 class="title">Parę słów o mnie</h1>
       <div class="wrapperPer">
         <article class="art">
           <div class="foto1"></div>
           <div class="about">
-            <h2 class="name">Imię Nazwisko (dział)</h2>
+            <h2 class="name">Hej nazywam się Ewa Pruszyńska</h2>
             <p class="discrip">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              incidunt, illo sint, minima distinctio optio ipsam numquam ratione
-              veniam, porro autem nesciunt voluptatum aut recusandae nulla. Quas
-              consectetur cumque placeat!
+              Skończyłam studia inżynierskie z Fizyki Technicznej. Cały czas
+              rozwijam się w branży IT. Obecnie skończyłam bootcamp z Frontend
+              Developper. Poza programowaniem moją pasją jest sztuka. Stawiam
+              pierwsze kroki w grafice 3D. W wolnym czasie szyje artystyczne
+              maskotki, gram w gry zarówno te komputerowe jak planszowe czy
+              sesje RPG. Poniżej prezentuje parę z moich prac ;)
             </p>
           </div>
         </article>
         <article class="art2">
           <div class="foto2"></div>
           <div class="about">
-            <h2 class="name2">Imię Nazwisko (dział)</h2>
+            <h2 class="name2">Prywatnie</h2>
             <p class="discrip2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              eligendi tempore commodi dicta. Magnam itaque sit sapiente et
-              culpa adipisci ea accusantium odio ullam eveniet, ipsa expedita
-              ipsum distinctio. Aspernatur!
+              Prywatnie jestem żoną i mamą dwójki maluszków ;) Uwielbiam też
+              koty. Obecnie mam dwa: Dobby (Devon Rex) i Lunna (Bengalski)
             </p>
           </div>
         </article>
