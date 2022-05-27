@@ -12,9 +12,14 @@ function Offer() {
   return offers.map((item) =>
     item.isNew == 1 ? (
       <div class="box1">
-        <div class="circle"></div>
-        <div class="background"></div>
-        {"Sarenka " /*+ item.num*/ + " (nowość!)"}
+        <a
+          href="https://www.instagram.com/p/B4kDr1rpQT-/"
+          onclick="window.open('okno', 'okno')"
+          class="link-graf">
+          <div class="circle"></div>
+          <div class="background"></div>
+          {"Sarenka " /*+ item.num*/ + " (nowość!)"}
+        </a>
       </div>
     ) : (
       /*<div class="wrapperServices">
@@ -24,24 +29,49 @@ function Offer() {
       </div>*/
       <>
         <div class="box2">
-          <div class="background"></div>
-          {"Wilk " /*+ item.num*/}
+          <a
+            href="https://www.instagram.com/p/CSqs3t0MP6-/"
+            onclick="window.open('okno', 'okno')"
+            class="link-graf">
+            <div class="background"></div>
+            {"Wilk " /*+ item.num*/}
+          </a>
         </div>
         <div class="box3">
-          <div class="background"></div>
-          {"Pies " /*+ item.num*/}
+          <a
+            href="https://www.instagram.com/p/CSg1zbwsGrU/"
+            onclick="window.open('okno', 'okno')"
+            class="link-graf">
+            <div class="background"></div>
+            {"Pies " /*+ item.num*/}
+          </a>
         </div>
         <div class="box4">
-          <div class="background"></div>
-          {"króliczki " /*+ item.num*/}
+          <a
+            href="https://www.instagram.com/p/CFjmWn5j7oi/"
+            onclick="window.open('okno', 'okno')"
+            class="link-graf">
+            <div class="background"></div>
+            {"króliczki " /*+ item.num*/}
+          </a>
         </div>
         <div class="box5">
-          <div class="background"></div>
-          {"Tilda Różowa " /*+ item.num*/}
+          <a
+            href="https://www.instagram.com/p/CL7RcxEMOnA/"
+            onclick="window.open('okno', 'okno')"
+            class="link-graf">
+            <div class="background"></div>
+            {"Tilda Różowa " /*+ item.num*/}
+          </a>
         </div>
         <div class="box6">
-          <div class="background"></div>
-          {"Tilda " /*+ item.num*/}
+          <a
+            href="https://www.instagram.com/p/CKQoZouMitJ/"
+            onclick="window.open('okno', 'okno')"
+            class="link-graf">
+            <div class="background"></div>
+            {"Tilda " /*+ item.num*/}
+          </a>
         </div>
       </>
     )
