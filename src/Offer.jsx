@@ -13,6 +13,7 @@ function Offer() {
     item.isNew == 1 ? (
       <div class="box1">
         <div class="circle"></div>
+        <div class="background"></div>
         {"Sarenka " /*+ item.num*/ + " (nowość!)"}
       </div>
     ) : (
@@ -22,11 +23,26 @@ function Offer() {
         <h2 class="name">Usługa 1 (nowość)</h2>
       </div>*/
       <>
-        <div class="box2">{"Wilk " /*+ item.num*/}</div>
-        <div class="box3">{"Pies " /*+ item.num*/}</div>
-        <div class="box4">{"króliczki " /*+ item.num*/}</div>
-        <div class="box5">{"Tilda Różowa " /*+ item.num*/}</div>
-        <div class="box6">{"Tilda " /*+ item.num*/}</div>
+        <div class="box2">
+          <div class="background"></div>
+          {"Wilk " /*+ item.num*/}
+        </div>
+        <div class="box3">
+          <div class="background"></div>
+          {"Pies " /*+ item.num*/}
+        </div>
+        <div class="box4">
+          <div class="background"></div>
+          {"króliczki " /*+ item.num*/}
+        </div>
+        <div class="box5">
+          <div class="background"></div>
+          {"Tilda Różowa " /*+ item.num*/}
+        </div>
+        <div class="box6">
+          <div class="background"></div>
+          {"Tilda " /*+ item.num*/}
+        </div>
       </>
     )
   );

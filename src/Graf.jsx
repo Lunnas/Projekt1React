@@ -13,12 +13,19 @@ function Graf() {
     item.isNew == 1 ? (
       <div class="graf1">
         <div class="circle"></div>
+        <div class="background"></div>
         {"Jabłka " /*+ item.num*/ + " (nowość!)"}
       </div>
     ) : (
       <>
-        <div class="graf2">{"miecz " /*+ item.num*/}</div>
-        <div class="graf3">{"Pączek "}</div>
+        <div class="graf2">
+          <div class="background"></div>
+          {"miecz " /*+ item.num*/}
+        </div>
+        <div class="graf3">
+          <div class="background"></div>
+          {"Pączek "}
+        </div>
       </>
     )
   );
